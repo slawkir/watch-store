@@ -1,5 +1,5 @@
 .popular {
-  height: 720px;
+  min-height: 720px;
   padding: 80px 0;
   position: relative;
 }
@@ -22,6 +22,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 52px;
+  padding: 0 97px;
 }
 .popular__container__item {
   width: 370px;

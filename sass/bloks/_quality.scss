@@ -1,12 +1,12 @@
 .quality {
-  height: 520px;
+  min-height: 520px;
   position: relative;
   overflow: hidden;
 }
 .quality__bg {
   display: flex;
   flex-wrap: nowrap;
-  height: 520px;
+  min-height: 520px;
  
   
   &::before {
@@ -31,9 +31,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
-
-  // z-index: 10;
 }
 
 .quality__slider {
